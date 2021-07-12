@@ -8,6 +8,9 @@ require('dotenv').config()
 const app=express();
 
 
+//lectura y parseo del body
+app.use(express.json())
+
 //Directorio publico
 app.use(express.static('public'));
 
