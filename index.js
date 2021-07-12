@@ -1,20 +1,22 @@
 console.log('Hi Edisonnnn')
 const express = require('express')
+require('dotenv').config()
+
+
 
 //Crear el servidor de express
 const app=express();
 
 
+//Directorio publico
+app.use(express.static('public'));
+
 //Rutas
-app.get('/',(req,res)=>{
-    
-    res.json({
-        ok:true
-    })
-})
+//TODO: auth//crear,login,renew
+//TODO:CRUD:Eventos
 
 
 //Escuchar peticiones
-app.listen(4000, ()=>{
-    console.log('Server run un port ${4000}');
+app.listen(process.env.PORT, ()=>{
+    console.log(`Server run un port ${process.env.PORT}`);
 })
