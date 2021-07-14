@@ -1,5 +1,6 @@
 console.log('Hi Edisonnnn')
 const express = require('express');
+const cors=require('cors');
 const { dbConnection } = require('./routes/middlewares/database/config');
 require('dotenv').config()
 
@@ -10,6 +11,9 @@ const app=express();
 
 //Base de datos
 dbConnection()
+
+//CORS
+app.use(cors())
 
 //lectura y parseo del body
 app.use(express.json())
