@@ -10,7 +10,7 @@ React.js( React Router, Hooks)
 Redux
 Bootstrap, css,material IU
 link GitHub:
-# https://github.com/EdisonAlzate/Schedule-MERN-Backend
+# https://github.com/EdisonAlzate/Schedule-MERN-frontend
 
 Tecnologias utilizadas en el BACKEND:
 Node.js
@@ -24,6 +24,6 @@ Env development , production
 Encriptacion de contraseñas
 Validacion del JsonWebToken guardandolo en el localStorage
 Link GitHub:
-# https://github.com/EdisonAlzate/Schedule-MERN-frontend
+# https://github.com/EdisonAlzate/Schedule-MERN-Backend
 
 RECUERDE : Instalar las dependencias de la aplicacion, ejecutando por medio de consola el comando npm install
