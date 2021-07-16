@@ -1,17 +1,18 @@
 # Schedule MERN backend
 
 Link de despliegue en Heroku:
-#https://mern-schedule-edison.herokuapp.com/
+# https://mern-schedule-edison.herokuapp.com/
 
 Schedule :Es una aplicacion creada con MERN=(Mongo, Express, React , Node) que permite crear un usuario con el fin de usar su cuenta privada para: crear, leer, actualizar y borrar eventos del calendario con su respectiva fecha 
 
-Tecnologias utilizadas en el Frontend :
+Tecnologias utilizadas en el FRONTEND :
 React.js( React Router, Hooks)
 Redux
 Bootstrap, css,material IU
-link GitHub:https://github.com/EdisonAlzate/Schedule-MERN-Backend
+link GitHub:
+# https://github.com/EdisonAlzate/Schedule-MERN-Backend
 
-Tecnologias utilizadas en el Backend:
+Tecnologias utilizadas en el BACKEND:
 Node.js
 Express
 MongoDB 
@@ -22,6 +23,7 @@ Proteccion de rutas (publicas y privadas)
 Env development , production
 Encriptacion de contraseñas
 Validacion del JsonWebToken guardandolo en el localStorage
-Link GitHub:https://github.com/EdisonAlzate/Schedule-MERN-frontend
+Link GitHub:
+# https://github.com/EdisonAlzate/Schedule-MERN-frontend
 
 RECUERDE : Instalar las dependencias de la aplicacion, ejecutando por medio de consola el comando npm install
